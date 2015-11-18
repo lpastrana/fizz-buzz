@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Verdana", sans-serif;
+}
+.wrapper {
+	border-bottom: solid .15em #2F343D;	
+	margin: 1em auto;
+	padding: .5em 0;
+	width: 100%;
+}
+.header {
+  	margin: 0 auto;
+  	width: 50%;
+  	text-align: center;
+}
+.main, .numbers {
+  	margin: 0 auto;
+  	width: 40%;
+  	text-align: center;
+}
+.main p {
+  	margin: 1em 0;
+  	text-align: left;
+}
+button {
+	padding: .3em;
+}
+button:hover {
+	background-color: #a6a6a6;
+}
+#game {
+	margin: 0 auto;
+	text-align: left;
+	overflow: auto;
+	width: 98%;
+	height: 520px;
+}
+p#game {
+	color: #000;
+	line-height: 2em;
+	letter-spacing: .15em;
