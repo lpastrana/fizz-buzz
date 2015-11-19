@@ -8,20 +8,20 @@ function test() {
 	    var tres = (i % 3);
 	    var cinco = (i % 5);
 	    	//if-else statement to determine if the numbers meet any of the following criteria
-		  	if (tres === 0 && cinco === 0) {
+		  	if (tres == 0 && cinco == 0) {
 		  		// if 'tres' and 'cinco' are divisible by the same number place that data
 		  		// into the corresponding sequence number and exchange that number
 		  		// for 'FIZZBUZZ' and do a line break
 		  		text += "FIZZBUZZ<br>";
-		  	}else if (tres == 0) {
+		  	} else if (tres == 0) {
 		  		// if it matches 'tres' the number in the sequence is replaced by
 		  		// the text 'FIZZ' and do a line break
-		  		text += "FIZZ <br>"
-		  	}else if (cinco == 0) {
+		  		text += "FIZZ <br>";
+		  	} else if (cinco == 0) {
 		  		// if it matches 'cinco' the number in the sequence is replaced by
 		  		// the text 'FIZZ' and do a line break
 		  		text += "BUZZ <br>";
-		  	}else {
+		  	} else {
 		  		// if any of the other conditions are not met just run the 
 		  		// sequence of the for loop placing 'i' in 'text'
 		  		text += i + '<br>';
