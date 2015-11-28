@@ -1,9 +1,9 @@
 function test() {
 	// have a prompt to collect the number that will be utilized in the game
 	var inputNum = prompt("Enter a number", "Use only numbers");
-	if (isNaN(inputNum)) {
-		// if it is not a number an alert will tell the user to try again
-        alert("Please click 'Start' and enter a number.");
+	if (isNaN(inputNum) ||(inputNum <= 0)) {
+		// if it is not a number or a positive number an alert will tell the user to try again
+        alert("Please click 'Start' and enter a positive number.");
         }   
 	// uses the var text as the place holder for the output	
 	var text = '';
